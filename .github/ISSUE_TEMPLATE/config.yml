@@ -2,9 +2,13 @@ blank_issues_enabled: false
 contact_links:
   - name: ATM Team's GitHub
     url: https://github.com/allthemods
+    about: Includes all their repos for the various packs to report bugs to
   - name: ATM Team's Discord
     url: https://discord.gg/3paFjuRfz9
+    about: Chat with other ATM users and the team
   - name: ATM Team's Reddit
     url: https://www.reddit.com/r/allthemods
+    about: Discuss the pack with other users
   - name: ATM Team's Curseforge
     url: https://www.curseforge.com/members/atmteam
+    about: Find the latest versions of the pack and mods
