@@ -41,6 +41,13 @@ This script was forked from the script that the AllTheMods Team provides. I have
 7. Watches for server crashes or stops and restarts the server after the configured delay
 8. (Optionally) Installs the server and exits
 
+## Tested Packs
+
+| Pack Version | Tested | Works | Date Tested |
+|--------------|--------|-------|-------------|
+| 8 (1.0.8)    | Yes    | Yes   | 2023-01-17  |
+| 7 (0.4.34)   | Yes    | Yes   | 2023-01-17  |
+
 ## Contribution
 
 I'm open to contributions. Please submit a pull request. Ideally the script should be able to work with all ATM pack versions from ATM7+ so anything that can help with that is appreciated.
