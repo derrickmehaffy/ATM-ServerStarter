@@ -10,7 +10,7 @@ MIRROR="https://maven.allthehosting.com/releases/"
 # To install the pack without starting the server, set an environment variable named ATM_INSTALL_ONLY to true.
 
 INSTALLER="forge-$MINECRAFT_VERSION-$FORGE_VERSION-installer.jar"
-FORGE_URL="${MIRROR}net/minecraftforge/forge/1.19.2-$FORGE_VERSION/forge-1.19.2-$FORGE_VERSION-installer.jar"
+FORGE_URL="${MIRROR}net/minecraftforge/forge/$MINECRAFT_VERSION-$FORGE_VERSION/forge-$MINECRAFT_VERSION-$FORGE_VERSION-installer.jar"
 
 pause() {
   printf "%s\n" "Press enter to continue..."
