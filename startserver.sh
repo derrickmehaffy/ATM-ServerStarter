@@ -1,15 +1,16 @@
-#!/bin/sh
+#!/bin/bash
 set -eu
 FORGE_VERSION=43.2.3
 MINECRAFT_VERSION=1.19.2
 PACK_VERSION=8
 ATM_RESTART_DELAY=10
+MIRROR="https://maven.allthehosting.com/releases/"
 # To use a specific Java runtime, set an environment variable named ATM_JAVA to the full path of java.exe.
 # To disable automatic restarts, set an environment variable named ATM_RESTART to false.
 # To install the pack without starting the server, set an environment variable named ATM_INSTALL_ONLY to true.
 
 INSTALLER="forge-$MINECRAFT_VERSION-$FORGE_VERSION-installer.jar"
-FORGE_URL="http://files.minecraftforge.net/maven/net/minecraftforge/forge/$MINECRAFT_VERSION-$FORGE_VERSION/forge-$MINECRAFT_VERSION-$FORGE_VERSION-installer.jar"
+FORGE_URL="${MIRROR}net/minecraftforge/forge/1.19.2-$FORGE_VERSION/forge-1.19.2-$FORGE_VERSION-installer.jar"
 
 pause() {
   printf "%s\n" "Press enter to continue..."
