@@ -5,9 +5,14 @@ MINECRAFT_VERSION=1.19.2
 PACK_VERSION=8
 ATM_RESTART_DELAY=10
 MIRROR="https://maven.allthehosting.com/releases/"
-# To use a specific Java runtime, set an environment variable named ATM_JAVA to the full path of java.exe.
+# To use a specific Java runtime, set an environment variable named ATM_JAVA to the full path of java executable.
+# ATM_JAVA=/custom/path/to/java
+
 # To disable automatic restarts, set an environment variable named ATM_RESTART to false.
+# ATM_RESTART=false
+
 # To install the pack without starting the server, set an environment variable named ATM_INSTALL_ONLY to true.
+#ATM_INSTALL_ONLY=true
 
 INSTALLER="forge-$MINECRAFT_VERSION-$FORGE_VERSION-installer.jar"
 FORGE_URL="${MIRROR}net/minecraftforge/forge/$MINECRAFT_VERSION-$FORGE_VERSION/forge-$MINECRAFT_VERSION-$FORGE_VERSION-installer.jar"
